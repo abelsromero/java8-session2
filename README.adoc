@@ -1,0 +1,25 @@
+= Java 8 training (sort of...session 1)
+:icons: font
+
+This repository contains the code examples used for the sessions done on the 12th of July 2018 (Brussels).
+
+== Usage
+
+This repo just uses Maven 3 to define it's structure and manage dependencies.
+
+IMPORTANT: This project uses link:https://projectlombok.org/[Lombok].
+In order for the generated code to be use in an IDE (eclipse or IntelliJ), you'll require the installation of the appropriate IDE plugins.
+
+== Examples exploration
+
+The repository contains 4 packages:
+
+* `api.users`: contains a small example of how to use Optional to handle retrieving elements.
+Note how using Optional frees you from dealing with nulls and exceptions in the repository.
+* `date`: code examples for the new Date API.
+* `life`: examples seen in the `Quality of life` section.
+* `optional`: simple examples of how to manipulate `Optional` instances.
+* `reflection`: demo of how to use the new `-parameters` feature.
+There are detailed instructions in the class about how to run it.
+
+Feel free to play with them!!
