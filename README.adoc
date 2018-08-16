@@ -1,4 +1,4 @@
-= Java 8 training (sort of...session 1)
+= Java 8 training (sort of...session 2)
 :icons: font
 
 This repository contains the code examples used for the sessions done on the 12th of July 2018 (Brussels).
